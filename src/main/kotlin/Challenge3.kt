@@ -11,7 +11,7 @@ Challenge 1:
 
 class IceCream {
     var name: String = "Chocolate ice cream"
-    val ingredients: ArrayList<String> by lazy { arrayListOf() }
+    val ingredients: MutableList<String> by lazy { arrayListOf() }
 }
 
 /*
