@@ -21,10 +21,10 @@ class Circle(var radius: Double = 0.0) {
         set(areaValue) {
             radius = sqrt(areaValue / PI)
         }
-}
 
-fun Circle.grow(factor: Int) {
-    area *= factor
+    fun grow(factor: Int) {
+        area *= factor
+    }
 }
 
 /*
